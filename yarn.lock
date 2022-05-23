@@ -275,6 +275,20 @@
   "resolved" "https://registry.npmjs.org/@assemblyscript/loader/-/loader-0.10.1.tgz"
   "version" "0.10.1"
 
+"@awesome-cordova-plugins/core@^5.1.0":
+  "integrity" "sha512-49+CGO7ZU7s+6HsR3Z4hDhcb9sBrCSP5FT9HXfa+EySh6nqHcUPC5tFT02sF9RSFNtovNEOTqjO/n78yp9XboQ=="
+  "resolved" "https://registry.npmjs.org/@awesome-cordova-plugins/core/-/core-5.42.0.tgz"
+  "version" "5.42.0"
+  dependencies:
+    "@types/cordova" "latest"
+
+"@awesome-cordova-plugins/speech-recognition@^5.42.0":
+  "integrity" "sha512-Ury9LntqC9aKXmI6s/dVuxixf0Pon0WMTHeqhtX0r5Y1AaaKURpyBqFmIWTPvAfq4Wgt9dZAH0Mpe15+wB6pCA=="
+  "resolved" "https://registry.npmjs.org/@awesome-cordova-plugins/speech-recognition/-/speech-recognition-5.42.0.tgz"
+  "version" "5.42.0"
+  dependencies:
+    "@types/cordova" "latest"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.16.7":
   "integrity" "sha512-iAXqUn8IIeBTNd72xsFlgaXHkMBMt6y4HJp1tIaK465CWLT/fG1aqB7ykr95gHHmlBdGbFeWWfyB4NJJ0nmeIg=="
   "resolved" "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.16.7.tgz"
@@ -1211,6 +1225,18 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     "to-fast-properties" "^2.0.0"
 
+"@capacitor-community/barcode-scanner@^2.1.1":
+  "integrity" "sha512-K9qwYtQK4yn5cX+2datFXEf43uI/nl5tmaqEhBQ9vDr3eTQ6hgAqQI4z5mnSsTIBHx5QaPVD8C9MqkMGNG3V1A=="
+  "resolved" "https://registry.npmjs.org/@capacitor-community/barcode-scanner/-/barcode-scanner-2.1.1.tgz"
+  "version" "2.1.1"
+
+"@capacitor-community/speech-recognition@^2.1.0":
+  "integrity" "sha512-053zAqYIF3OcpVAvX/a8KXSAPtLt/KdLFQosNSyr4Cvjcwgcv6df6rMI98/KD0IwzONFaDTLyL2IpSFyh/kSJw=="
+  "resolved" "https://registry.npmjs.org/@capacitor-community/speech-recognition/-/speech-recognition-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "@capacitor/core" "latest"
+
 "@capacitor/android@3.5.1":
   "integrity" "sha512-rjehS0+BQBlwoN8hUyrMuzexn/9QJsONb1kmN5uXcL8JuTEbv35fa7z0tSD4x1LKwUFd+3Zeuwt60QRuwijlmw=="
   "resolved" "https://registry.npmjs.org/@capacitor/android/-/android-3.5.1.tgz"
@@ -1248,7 +1274,7 @@
     "tslib" "^2.1.0"
     "xml2js" "^0.4.23"
 
-"@capacitor/core@^3.0.0", "@capacitor/core@^3.5.0", "@capacitor/core@3.5.1":
+"@capacitor/core@^3.0.0", "@capacitor/core@^3.5.0", "@capacitor/core@3.5.1", "@capacitor/core@latest":
   "integrity" "sha512-UTROxB7q/hZBnhDLcCN7mVsAX3SxXNMhVuPbtddsDOUCm4hExLXN62gPD7rjgmumhfHMjeXmkw/EfRzSjttL1g=="
   "resolved" "https://registry.npmjs.org/@capacitor/core/-/core-3.5.1.tgz"
   "version" "3.5.1"
@@ -1336,6 +1362,13 @@
   "resolved" "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   "version" "1.2.1"
 
+"@ionic-native/barcode-scanner@^5.36.0":
+  "integrity" "sha512-T4Wnu+gjQIBKF0Yifz5f4jEHMN23jnqBgfyXQdyBxq1yrgt5BdwrmaYPrs/a68SGwh3rhBvcW/TyGehdkEC78w=="
+  "resolved" "https://registry.npmjs.org/@ionic-native/barcode-scanner/-/barcode-scanner-5.36.0.tgz"
+  "version" "5.36.0"
+  dependencies:
+    "@types/cordova" "latest"
+
 "@ionic-native/core@^5.1.0":
   "integrity" "sha512-lOrkktadlKYbYf1LrDyAtsu1JnQ0oCCdkOU7iHQ8oXnNOkMwobFfD2m62F1CoOr0u9LIkpYnZSPjng8lZbmbNw=="
   "resolved" "https://registry.npmjs.org/@ionic-native/core/-/core-5.36.0.tgz"
@@ -1368,7 +1401,7 @@
     "jsonc-parser" "^3.0.0"
     "tslib" "^2.0.0"
 
-"@ionic/cli-framework-output@^2.2.1":
+"@ionic/cli-framework-output@^2.2.1", "@ionic/cli-framework-output@2.2.4":
   "integrity" "sha512-YdaXtHHg0zT1JSFlGrbTWe6uzD6u+w5yHE+aM7Js/3BNLYKIYngliMoojGxwNHbqMPNuvDzWMDAbxteY5u0vKg=="
   "resolved" "https://registry.npmjs.org/@ionic/cli-framework-output/-/cli-framework-output-2.2.4.tgz"
   "version" "2.2.4"
@@ -1376,6 +1409,27 @@
     "@ionic/utils-terminal" "2.3.2"
     "debug" "^4.0.0"
     "tslib" "^2.0.1"
+
+"@ionic/cli-framework@5.1.2":
+  "integrity" "sha512-7z9cCJy832lQTZrl8pqxZS+QhjYEgvguPOktkD7yh3I0Yv6QpQJecKb5Amyx2UXv4ImmlfJkyAC3tmQdPRgEAw=="
+  "resolved" "https://registry.npmjs.org/@ionic/cli-framework/-/cli-framework-5.1.2.tgz"
+  "version" "5.1.2"
+  dependencies:
+    "@ionic/cli-framework-output" "2.2.4"
+    "@ionic/utils-array" "2.1.5"
+    "@ionic/utils-fs" "3.1.5"
+    "@ionic/utils-object" "2.1.5"
+    "@ionic/utils-process" "2.1.9"
+    "@ionic/utils-stream" "3.1.5"
+    "@ionic/utils-subprocess" "2.1.10"
+    "@ionic/utils-terminal" "2.3.2"
+    "chalk" "^4.0.0"
+    "debug" "^4.0.0"
+    "lodash" "^4.17.5"
+    "minimist" "^1.2.0"
+    "rimraf" "^3.0.0"
+    "tslib" "^2.0.1"
+    "write-file-atomic" "^3.0.0"
 
 "@ionic/core@^6.1.6":
   "integrity" "sha512-AsYGEHKVHy082RST3RBrIiOZX6VXNy6qYSYtf6TwOwmF/YV+/ASaB1TqVO/jP658ML106nNcjUM0fTkbm9UXRA=="
@@ -1385,6 +1439,17 @@
     "@stencil/core" "^2.14.2"
     "ionicons" "^6.0.0"
     "tslib" "^2.1.0"
+
+"@ionic/lab@3.2.12":
+  "integrity" "sha512-L/iLhFfeMgITtv0X+ELv+/WSlr6P+RcKTY6Mg1UNuuMRHSGBV/tJoVaWWreiZK2lA2UyK1J2fPJQagDM7NGRmQ=="
+  "resolved" "https://registry.npmjs.org/@ionic/lab/-/lab-3.2.12.tgz"
+  "version" "3.2.12"
+  dependencies:
+    "@ionic/cli-framework" "5.1.2"
+    "@ionic/utils-fs" "3.1.5"
+    "chalk" "^4.0.0"
+    "express" "^4.16.2"
+    "tslib" "^2.0.1"
 
 "@ionic/pwa-elements@^3.1.1":
   "integrity" "sha512-BoEX1pSrKn5dP4VQwaf8DweAmT4ynmpW+9f6oj/W1xLe54bmuXcUY07ziuZX1DLu50xHSYcO5qJ/dbYC/w6wgA=="
@@ -1436,7 +1501,7 @@
     "debug" "^4.0.0"
     "tslib" "^2.0.1"
 
-"@ionic/utils-subprocess@^2.1.6":
+"@ionic/utils-subprocess@^2.1.6", "@ionic/utils-subprocess@2.1.10":
   "integrity" "sha512-X5wXiA4moEzbvchWqa7kwnYw3IqFyP1otlN/APFOmzmpsQWdyz5LRqqMhPozJeN11Mi3pwNR+BCQWd6vFBHTTg=="
   "resolved" "https://registry.npmjs.org/@ionic/utils-subprocess/-/utils-subprocess-2.1.10.tgz"
   "version" "2.1.10"
@@ -3170,6 +3235,11 @@
     "schema-utils" "^4.0.0"
     "serialize-javascript" "^6.0.0"
 
+"cordova-plugin-speechrecognition@^1.2.0":
+  "integrity" "sha1-AF8QyJb9kpPYWH/lUiorZC3qlwo="
+  "resolved" "https://registry.npmjs.org/cordova-plugin-speechrecognition/-/cordova-plugin-speechrecognition-1.2.0.tgz"
+  "version" "1.2.0"
+
 "cordova-plugin-tts@^0.2.3":
   "integrity" "sha1-xXQ/bG8lHoy0vEXdM9QamiKZcoc="
   "resolved" "https://registry.npmjs.org/cordova-plugin-tts/-/cordova-plugin-tts-0.2.3.tgz"
@@ -4074,7 +4144,7 @@
   "resolved" "https://registry.npmjs.org/exit/-/exit-0.1.2.tgz"
   "version" "0.1.2"
 
-"express@^4.17.1":
+"express@^4.16.2", "express@^4.17.1":
   "integrity" "sha512-zZBcOX9TfehHQhtupq57OF8lFZ3UZi08Y97dwFCkD8p9d/d2Y3M+ykKcwaMDEL+4qyUolgBDX6AblpR3fL212Q=="
   "resolved" "https://registry.npmjs.org/express/-/express-4.18.1.tgz"
   "version" "4.18.1"
@@ -5139,7 +5209,7 @@
   dependencies:
     "has-symbols" "^1.0.2"
 
-"is-typedarray@~1.0.0":
+"is-typedarray@^1.0.0", "is-typedarray@~1.0.0":
   "integrity" "sha1-5HnICFjfDBsR3dppQPlgEfzaSpo="
   "resolved" "https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz"
   "version" "1.0.0"
@@ -5648,7 +5718,7 @@
   "resolved" "https://registry.npmjs.org/lodash.truncate/-/lodash.truncate-4.4.2.tgz"
   "version" "4.4.2"
 
-"lodash@^4.17.14", "lodash@^4.17.20", "lodash@^4.17.21":
+"lodash@^4.17.14", "lodash@^4.17.20", "lodash@^4.17.21", "lodash@^4.17.5":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
@@ -7344,7 +7414,7 @@
   "resolved" "https://registry.npmjs.org/rxjs-for-await/-/rxjs-for-await-0.0.2.tgz"
   "version" "0.0.2"
 
-"rxjs@^5.5.0 || ^6.5.0", "rxjs@^6.0.0", "rxjs@^6.5.3 || ^7.4.0", "rxjs@^6.5.4", "rxjs@>=6.6.0", "rxjs@~6.6.0", "rxjs@6.6.7":
+"rxjs@^5.5.0 || ^6.5.0", "rxjs@^5.5.0 || ^6.5.0 || ^7.3.0", "rxjs@^6.0.0", "rxjs@^6.5.3 || ^7.4.0", "rxjs@^6.5.4", "rxjs@>=6.6.0", "rxjs@~6.6.0", "rxjs@6.6.7":
   "integrity" "sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ=="
   "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-6.6.7.tgz"
   "version" "6.6.7"
@@ -8260,6 +8330,13 @@
   "resolved" "https://registry.npmjs.org/typed-assert/-/typed-assert-1.0.9.tgz"
   "version" "1.0.9"
 
+"typedarray-to-buffer@^3.1.5":
+  "integrity" "sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q=="
+  "resolved" "https://registry.npmjs.org/typedarray-to-buffer/-/typedarray-to-buffer-3.1.5.tgz"
+  "version" "3.1.5"
+  dependencies:
+    "is-typedarray" "^1.0.0"
+
 "typescript@*", "typescript@>= 4.3", "typescript@>=2.0", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@>=4.4.2 <4.6", "typescript@>=4.4.3 <4.6", "typescript@~4.4.4":
   "integrity" "sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.4.4.tgz"
@@ -8624,6 +8701,16 @@
   "integrity" "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8="
   "resolved" "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
   "version" "1.0.2"
+
+"write-file-atomic@^3.0.0":
+  "integrity" "sha512-AvHcyZ5JnSfq3ioSyjrBkH9yW4m7Ayk8/9My/DD9onKeu/94fwrMocemO2QAJFAlnnDN+ZDS+ZjAR5ua1/PV/Q=="
+  "resolved" "https://registry.npmjs.org/write-file-atomic/-/write-file-atomic-3.0.3.tgz"
+  "version" "3.0.3"
+  dependencies:
+    "imurmurhash" "^0.1.4"
+    "is-typedarray" "^1.0.0"
+    "signal-exit" "^3.0.2"
+    "typedarray-to-buffer" "^3.1.5"
 
 "ws@^8.1.0", "ws@~8.2.3":
   "integrity" "sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA=="
